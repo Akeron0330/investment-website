@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>投資資産推移と配当金</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Chart.js CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <header>
+        <h1>投資資産推移と配当金</h1>
+    </header>
+
+    <main>
+        <section id="asset-growth">
+            <h2>資産推移</h2>
+            <canvas id="assetChart"></canvas>
+        </section>
+
+        <section id="dividends">
+            <h2>配当金</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>年</th>
+                        <th>配当金額 (円)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- データをここに挿入 -->
+                    <tr>
+                        <td>2021</td>
+                        <td>50,000</td>
+                    </tr>
+                    <tr>
+                        <td>2022</td>
+                        <td>55,000</td>
+                    </tr>
+                    <tr>
+                        <td>2023</td>
+                        <td>60,000</td>
+                    </tr>
+                    <!-- 追加データ -->
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 あなたの名前</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
